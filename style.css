@@ -52,8 +52,17 @@ p {
 }
 
 a {
-
   color: var(--foreground);
+}
+
+a:link {
+  text-decoration: none;
+  color: var(--foreground);
+}
+
+a:hover {
+  transition: color 0.2s;
+  color: #696969;
 }
 
 .social-icon {
